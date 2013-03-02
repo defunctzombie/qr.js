@@ -24,6 +24,9 @@
     ],
     "harness": "mocha-tdd"
   },
+  "devDependencies": {
+    "mocha": "~1.8.1"
+  },
   "author": "Roman Shtylman <shtylman@gmail.com>",
   "license": "MIT",
   "readmeFilename": "README.md"
