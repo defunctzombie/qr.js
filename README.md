@@ -6,6 +6,8 @@ qrcode encoding in pure javascript with no additional dependencies
 var qr = require('qr.js');
 
 var qrcode = qr('foo bar baz');
+// binary:
+// qr(Buffer|Uint8Array)
 
 var cells = qrcode.modules;
 
