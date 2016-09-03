@@ -3,9 +3,9 @@ var ErrorCorrectLevel = require('./lib/ErrorCorrectLevel');
 
 var qrcode = function(data, opt) {
 	opt = opt || {};
-	var qr = new QRCode(opt.typeNumber || -1,
-						opt.errorCorrectLevel || ErrorCorrectLevel.H);
-	qr.addData(data);
+  var level = isNaN(opt.errorCorrectLevel) ? ErrorCorrectLevel.H : opt.errorCorrectLevel;
+  var qr = new QRCode(opt.typeNumber || -1, level);
+  qr.addData(data);
 	qr.make();
 
 	return qr;
