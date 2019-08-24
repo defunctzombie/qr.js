@@ -1,6 +1,6 @@
 {
   "name": "qr.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "qrcode encoding in javascript",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "harness": "mocha-tdd"
   },
   "devDependencies": {
-    "mocha": "~1.8.1"
+    "mocha": "~6.2.0"
   },
   "author": "Roman Shtylman <shtylman@gmail.com>",
   "license": "MIT",
