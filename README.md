@@ -22,3 +22,9 @@ This library is repackaged work from the qrcode library here http://www.d-projec
 # notes
 The word "QR Code" is registered trademark of DENSO WAVE INCORPORATED
 http://www.denso-wave.com/qrcode/faqpatent-e.html
+
+
+# Todo
+
+implement alphanumeric and kanji modes from http://www.d-project.com/
+implement auto detection for both of the above from https://github.com/nayuki/QR-Code-generator
